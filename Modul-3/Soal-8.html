@@ -4,35 +4,35 @@
     <title>Pendaftaran Kursus</title>
   </head>
   <body>
-    <!-- Header -->
-    <table border="1" width="600px"align="center">
+    <table border="2px" width="600px"align="center">
+      <!-- Header -->
       <tr bgcolor="skyblue">
-        <td align="center" colspan="2">
-          <font face="arial" color="red" size="6"><b>Pendaftaran Kursus</b></font>
+        <td align="center">
+          <font face="arial" color="red" size="6px"><b>Pendaftaran Kursus</b></font>
           <br><br>
         </td>
       </tr>
-      <!-- Data Diri -->
+      <!-- Body Form -->
       <tr bgcolor="gray">
-        <td colspan="2">
+        <td>
           <font face="arial" size="5"><b>Data Diri</b></font><br><br>
           <form>
             <table>
               <tr>
                 <td>Nama</td>
-                <td><input type="text" /></td>
+                <td><input type="text" name="nama"/></td>
               </tr>
               <tr>
                 <td>Nim</td>
-                <td><input type="text" /></td>
+                <td><input type="text" name="nim"/></td>
               </tr>
               <tr>
                 <td>E-mail</td>
-                <td><input type="email" /></td>
+                <td><input type="email" name="email"/></td>
               </tr>
               <tr>
                 <td>Tanggal Lahir</td>
-                <td><input type="date" /></td>
+                <td><input type="date" name="tanggal_lahir"/></td>
               </tr>
               <tr>
                 <td>Jenis Kelamin</td>
@@ -87,11 +87,11 @@
           </td>
       </tr>
 
-      <!-- Komentar dan Tombol -->
+      <!-- Feedback Footer -->
       <tr bgcolor="salmon"> 
-        <td colspan="2">
+        <td>
           Komentar Anda:<br />
-          <textarea rows="5" cols="60"></textarea><br />
+          <textarea rows="5px" cols="60px"></textarea><br />
           <input type="reset" value="Reset" />
           <input type="submit" value="Submit" />
           <input type="button" value="Cancel" /><br /><br>
